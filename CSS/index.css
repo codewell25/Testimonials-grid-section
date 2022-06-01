@@ -1,0 +1,96 @@
+.body {
+  background-color: #ecf2f8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.main-wrapper {
+  width: 80%;
+  margin: 70px auto;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  background-color: #7541c8;
+  padding: 25px 30px;
+  border-radius: 15px;
+}
+
+.profile, .profile-diff {
+  font-size: 13px;
+  color: #cfcfcf;
+}
+
+.profile span, .profile-diff span {
+  color: rgba(207, 207, 207, 0.5);
+}
+
+.profile img, .profile-diff img {
+  border: 2px solid rgba(207, 207, 207, 0.5);
+  width: 40px;
+}
+
+.card-content, .card-content-diff {
+  margin-top: 20px;
+}
+
+.card-content P, .card-content-diff P {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card-content blockquote, .card-content-diff blockquote {
+  color: rgba(207, 207, 207, 0.7);
+  font-size: 12px;
+  margin: 0;
+}
+
+.card-2 {
+  background-color: #48556a;
+  height: 310.5px;
+}
+
+.profile-diff {
+  color: #48556a;
+}
+
+.profile-diff span {
+  color: rgba(72, 85, 106, 0.5);
+}
+
+.profile-diff img {
+  border: none;
+}
+
+.card-3 {
+  background-color: white;
+}
+
+.card-content-diff p {
+  color: #48556a;
+}
+
+.card-content-diff blockquote {
+  color: rgba(72, 85, 106, 0.7);
+}
+
+.card-4 {
+  background-color: #19212e;
+}
+
+@media (max-width: 1020px) {
+  .main-wrapper {
+    width: 90%;
+  }
+  .card-1, .card-2, .card-3, .card-4 {
+    margin: 20px 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,112 @@
+$Moderateviolet: hsl(263, 55%, 52%);
+$Verydarkgrayishblue: hsl(217, 19%, 35%);
+$Verydarkblackishblue: hsl(219, 29%, 14%);
+$Lightgray: hsl(0, 0%, 81%);
+$Lightgrayishblue: hsl(210, 46%, 95%);
+
+.body {
+    background-color: $Lightgrayishblue;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+.main-wrapper {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.card-1 {
+    background-color: $Moderateviolet;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+
+.profile {
+
+    font-size: 13px;
+    color: $Lightgray;
+
+    span {
+        color: hsla(0, 0%, 81%, 0.5);
+    }
+
+    img {
+        border: 2px solid hsla(0, 0%, 81%, 0.5);
+        width: 40px;
+    }
+}
+
+.card-content {
+    margin-top: 20px;
+
+    P {
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    blockquote {
+        color: hsla(0, 0%, 81%, 0.7);
+        font-size: 12px;
+        margin: 0;
+    }
+}
+
+.card-2 {
+    @extend .card-1;
+    background-color: $Verydarkgrayishblue;
+    height: 310.5px;
+}
+
+.profile-diff {
+    @extend .profile;
+    color: hsl(217, 19%, 35%);
+
+    span {
+        color: hsla(217, 19%, 35%, 0.5);
+    }
+
+    img {
+        border: none
+    }
+}
+
+.card-3 {
+    @extend .card-1;
+    background-color: white;
+}
+
+.card-content-diff {
+    @extend .card-content;
+
+    p {
+        color: hsl(217, 19%, 35%);
+    }
+
+    blockquote {
+        color: hsla(217, 19%, 35%, 0.7);
+    }
+}
+
+.card-4 {
+    @extend .card-1;
+    background-color: hsl(219, 29%, 14%);
+}
+
+@media (max-width:1020px) {
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .card-1 {
+        margin: 20px 0;
+    }
+}
+
